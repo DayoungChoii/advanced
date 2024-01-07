@@ -12,7 +12,7 @@ public class HelloTraceV2 {
 
     public static final String START_PREFIX = "-->";
     public static final String COMPLETE_PREFIX = "<--";
-    public static final String EX_PREFIX = "<X-";
+    public static final String EX_PREFIX = "<X--";
 
     public TraceStatus begin(String message) {
         TraceId traceId = new TraceId();
